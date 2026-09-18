@@ -18,7 +18,7 @@ from aiogram.types import (
 
 # ======================= НАСТРОЙКИ =======================
 
-BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"          # токен от @BotFather
+BOT_TOKEN = "8763383205:AAFeRlMGdhVBEn8SBsretOjsB_dgmjMV3TM"          # токен от @BotFather
 ADMIN_ID = 123456789                   # ваш Telegram ID (узнать можно у @userinfobot)
 ADMIN_PASSWORD = "maksumtop1"          # пароль для входа в /admin
 CARD_NUMBER = "2202 2083 0536 9622"
@@ -535,7 +535,7 @@ async def admin_broadcast_send(message: Message, state: FSMContext):
 
 async def main():
     init_db()
-    bot = Bot(token=BOT_TOKEN)
+    bot = Bot(token=8763383205:AAFeRlMGdhVBEn8SBsretOjsB_dgmjMV3TM)
     dp = Dispatcher(storage=MemoryStorage())
     dp.include_router(admin_router)  # админ-роутер первым — важно для приоритета FSM
     dp.include_router(router)

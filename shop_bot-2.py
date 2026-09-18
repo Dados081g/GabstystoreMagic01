@@ -18,8 +18,8 @@ from aiogram.types import (
 
 # ======================= НАСТРОЙКИ =======================
 
-BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"          # токен от @BotFather
-ADMIN_ID = 123456789                   # ваш Telegram ID (узнать можно у @userinfobot)
+BOT_TOKEN = "8763383205:AAFeRlMGdhVBEn8SBsretOjsB_dgmjMV3TM"          # токен от @BotFather
+ADMIN_ID = 5000488732                   # ваш Telegram ID (узнать можно у @userinfobot)
 ADMIN_PASSWORD = "maksumtop1"          # пароль для входа в /admin
 CARD_NUMBER = "2202 2083 0536 9622"
 CHANNEL_LINK = "https://t.me/+0D3hMBZtdcc3Y2Uy"
@@ -31,7 +31,7 @@ AGREEMENT_LINK = "https://telegra.ph/Polzovatelskoe-soglashenie-09-18-64"
 SUPPORT_USERNAME = "@Forevebz"                   # кнопка "Помощь"
 # Ссылка, которую получает покупатель сразу после оплаты любого товара.
 # ЗАМЕНИТЕ на настоящую ссылку на приватный канал/архив с файлами.
-PRIVATE_FILES_LINK = "https://t.me/+ССЫЛКА_НА_ПРИВАТКУ"
+PRIVATE_FILES_LINK = "https://t.me/+aO0aEfw38GgwYWRi"
 
 # ID премиум-эмодзи
 EMOJI_GIFT = "5983580310292402968"     # 🎁 в приветствии

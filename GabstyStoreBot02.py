@@ -535,7 +535,7 @@ async def admin_broadcast_send(message: Message, state: FSMContext):
 
 async def main():
     init_db()
-    bot = Bot(token=8763383205:AAFeRlMGdhVBEn8SBsretOjsB_dgmjMV3TM)
+    bot = Bot()
     dp = Dispatcher(storage=MemoryStorage())
     dp.include_router(admin_router)  # админ-роутер первым — важно для приоритета FSM
     dp.include_router(router)
